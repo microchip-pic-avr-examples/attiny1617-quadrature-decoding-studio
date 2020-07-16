@@ -19,7 +19,7 @@ The example is explained in more details in the application note [AN2434](#Relat
 
 - [Atmel Studio 7.0.2397 or later](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
 - ATtiny_DFP 1.5.315 or later
-- AVR/GNU C Compiler 5.4.0 (buildt into studio)
+- AVR/GNU C Compiler 5.4.0 (built into studio)
 
 ## Hardware Used
 
@@ -36,11 +36,11 @@ Setup the connections as described in the diagram above
 
 ## Operation
 
-1. Open `QuadratureDecodingusingCCLwithTCAandTCB.atsln` in Atmel Studio
+1. Open `QuadratureDecodingusingCCLwithTCAandTCB.atsln` in Atmel Studio.
 2. Connect the ATtiny1617 with your programmer of choice, we used a STK600.
-3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
-4. Interact with the encoder and see the effect on *count* `PA7` *direction* `PA4`
+3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`.
+4. Interact with the encoder and see the effect on *count* `PA7` *direction* `PA4`.
 
 ## Conclusion
 
-We have shown how you can use a attiny1617 to do quadrature decoding. Refere to the application note [AN2434](#Related-Documentation) for more details about the implementation
+We have shown how you can use a attiny1617 to do quadrature decoding. Refere to the application note [AN2434](#Related-Documentation) for more details about the implementation.
