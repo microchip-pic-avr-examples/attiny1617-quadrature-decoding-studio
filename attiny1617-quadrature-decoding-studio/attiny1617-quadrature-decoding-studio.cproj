@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>QuadratureDecodingusingCCLwithTCAandTCB</AssemblyName>
-    <Name>QuadratureDecodingusingCCLwithTCAandTCB</Name>
-    <RootNamespace>QuadratureDecodingusingCCLwithTCAandTCB</RootNamespace>
+    <AssemblyName>attiny1617-quadrature-decoding-studio</AssemblyName>
+    <Name>attiny1617-quadrature-decoding-studio</Name>
+    <RootNamespace>attiny1617-quadrature-decoding-studio</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
