@@ -1,0 +1,89 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.attiny1617-quadrature-decoding-studio",
+        "version": "1.0.0",
+        "displayName": "Quadrature Decoding using CCL with TCA and TCB",
+        "projectName": "attiny1617-quadrature-decoding-studio",
+        "shortDescription": "This Atmel Studio 7 example demonstrates how to use an ATtiny1617 for Quadrature Decoding using CCL with TCA and TCB",
+        "ide": {
+            "name": "STUDIO",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
+        "dfp": {
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.5.315"
+        },
+        "configurator": {
+            "name": "START",
+            "semverRange": ">=1.7.360"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATtiny1617",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            [
+                "Peripherals",
+                "TCA"
+            ],
+            [
+                "Peripherals",
+                "TCB"
+            ],
+            [
+                "Peripherals",
+                "EVSYS"
+            ],
+            [
+                "Peripherals",
+                "CCL"
+            ],
+            [
+                "Peripherals",
+                "CPUINT"
+            ],
+            [
+                "Supporting Tools",
+                "STK600"
+            ]
+        ],
+        "peripherals": [
+            "TCA",
+            "TCB",
+            "EVSYS",
+            "CCL",
+            "CPUINT"
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
