@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny1617-quadrature-decoding-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Quadrature Decoding using CCL with TCA and TCB",
         "projectName": "attiny1617-quadrature-decoding-studio",
         "shortDescription": "This Atmel Studio 7 example demonstrates how to use an ATtiny1617 for Quadrature Decoding using CCL with TCA and TCB",
@@ -14,7 +14,7 @@
         },
         "compiler": [
             {
-                "name": "AVR-GCC",
+                "name": "AVR GCC",
                 "semverRange": "^5.4.0"
             }
         ],
@@ -71,8 +71,10 @@
             "CPUINT"
         ],
         "keywords": [
-            "",
-            ""
+            "INT",
+            "START",
+            "Low BOM",
+            "Quadrature Encoder"
         ],
         "additionalData": {
             "longDescription": {
